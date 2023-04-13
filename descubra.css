@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(24.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#logo {
+  position: absolute;
+  width: 25vh;
+  height: 9vh;
+  left: 12vh;
+  top: 7vh;
+}
+
+
+header ul {
+  text-align: center;
+  padding-top: 15px;
+}
+
+header ul li {
+  display: inline-flex;
+  vertical-align: middle;
+  padding: 15px;
+  flex-direction: column-reverse;
+}
+
+header ul li a {
+  background-color: #3f3f3f;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+ul li :hover {
+  color: #000000;
+}
+
+main p {
+  position: absolute;
+  width: 882px;
+  height: 410px;
+  left: 7.5vw;
+  top: 44vh;
+
+  font-style: normal;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.background {
+  position: absolute;
+  width: 52vw;
+  height: 21vh;
+  left: 5vw;
+  top: 42.5vh;
+
+  background: #3f3f3f;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+
+.background2 {
+  position: absolute;
+  width: 52vw;
+  height: 21vh;
+  left: 5vw;
+  top: 65vh;
+
+  background: #3f3f3f;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.barra-progresso {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 68vw;
+  top: 39.5vh;
+
+  height: 2.5vh;
+  width: 11vw;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.progresso {
+  height: 100%;
+  background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+  border-radius: 10px;
+}
+
+.background3 {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 69vw;
+  top: 45vh;
+
+  background: url(html.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 155px;
+  animation: zoomInOut 3s ease-in-out infinite alternate;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.barra-progresso4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 80vw;
+  top: 39.5vh;
+
+  height: 2.5vh;
+  width: 11vw;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.progresso4 {
+  height: 100%;
+  background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+  border-radius: 10px;
+}
+
+.background4 {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 81vw;
+  top: 45vh;
+
+  background: url(js.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 155px;
+  animation: zoomInOut 3s ease-in-out infinite alternate;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.barra-progresso5 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 68vw;
+  top: 65.5vh;
+
+  height: 2.5vh;
+  width: 11vw;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.progresso5 {
+  height: 100%;
+  background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+  border-radius: 10px;
+}
+
+.background5 {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 69vw;
+  top: 71vh;
+
+  background: url(golang.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 155px;
+  animation: zoomInOut 3s ease-in-out infinite alternate;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.barra-progresso6 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 80vw;
+  top: 65.5vh;
+
+  height: 2.5vh;
+  width: 11vw;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.progresso6 {
+  height: 100%;
+  background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+  border-radius: 10px;
+}
+
+.background6 {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  left: 81vw;
+  top: 70vh;
+  background: url(css.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 155px;
+  animation: zoomInOut 3s ease-in-out infinite alternate;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.progessotext p {
+  position: absolute;
+  width: 525px;
+  height: 120px;
+  left: 66vw;
+  top: 24vh;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 93px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.progessotextbackground {
+  position: absolute;
+  width: 27vw;
+  height: 10vh;
+  left: 66.5vw;
+  top: 24.5vh;
+
+  background: #3f3f3f;
+  border-radius: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url(24.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  #logo {
+    width: 50vw;
+    height: 18vh;
+    left: 25vw;
+    top: 18vh;
+  }
+
+  main p {
+    width: 90vw;
+    height: auto;
+    left: 5vw;
+    top: 42vh;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .background {
+    width: 92vw;
+    height: 35vh;
+    left: 4vw;
+    top: 41vh;
+  }
+
+  .background2 {
+    width: 92vw;
+    height: 36vh;
+    left: 4vw;
+    top: 78.5vh;
+  }
+
+
+  .header ul {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .header ul li {
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 15px;
+    flex-direction: column-reverse;
+  }
+
+  .header ul li a {
+    background-color: #3f3f3f;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .barra-progresso {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 9vw;
+    top: 135vh;
+
+    height: 2.5vh;
+    width: 80vw;
+    height: 4vh;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progresso {
+    height: 100%;
+    background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+    border-radius: 10px;
+  }
+
+  .background3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 16vw;
+    top: 145vh;
+
+    background: url(html.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 255px;
+    animation: zoomInOut 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .barra-progresso4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 9vw;
+    top: 190vh;
+
+    height: 2.5vh;
+    width: 80vw;
+    height: 4vh;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progresso4 {
+    height: 100%;
+    background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+    border-radius: 10px;
+  }
+
+  .background4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 16vw;
+    top: 200vh;
+
+    background: url(js.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 155px;
+    animation: zoomInOut 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .barra-progresso5 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 9vw;
+    top: 244vh;
+
+    height: 2.5vh;
+    width: 80vw;
+    height: 4vh;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progresso5 {
+    height: 100%;
+    background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+    border-radius: 10px;
+  }
+
+  .background5 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 16vw;
+    top: 254vh;
+
+    background: url(golang.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 155px;
+    animation: zoomInOut 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .barra-progresso6 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 9vw;
+    top: 298vh;
+
+    height: 2.5vh;
+    width: 80vw;
+    height: 4vh;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progresso6 {
+    height: 100%;
+    background: linear-gradient(to right, #ff0000 0%, #4800ff 95%);
+    border-radius: 10px;
+  }
+
+  .background6 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 16vw;
+    top: 305vh;
+    background: url(css.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 155px;
+    animation: zoomInOut 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .progessotext {
+    position: absolute;
+    width: 525px;
+    height: 120px;
+    top: 94vh;
+    right: 42vw;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 93px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .progessotextbackground {
+    position: absolute;
+    width: 90vw;
+    height: 10vh;
+    left: 4vw;
+    top: 120vh;
+
+    background: #3f3f3f;
+    border-radius: 30px;
+  }
+}
