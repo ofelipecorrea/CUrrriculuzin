@@ -5,9 +5,11 @@
 }
 
 body {
-    background-image: url(wpp24.jpg);
+    background-image: url(wp11880821-java-programmer-wallpapers.jpg);
     background-size: cover;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 #logo {
@@ -48,47 +50,65 @@ ul li :hover {
 
 .backgroundcolor1 {
     position: absolute;
-    width: 47vw;
-    height: 18.5vh;
+    width: 46vw;
+    height: 40vh;
     left: 2vw;
-    top: 40.5vh;
+    top: 34vh;
 
-    background: #7E7E7E;
+    background: rgb(28, 28, 28);
     border-radius: 20px;
+    border: 3px solid rgb(74, 74, 74,0.8);
 }
 
 .backgroundcolor2 {
     position: absolute;
-    width: 47vw;
-    height: 17vh;
-    left: 2vw;
-    top: 61vh;
+    width: 46vw;
+    height: 40vh;
+    left: 51vw;
+    top: 34vh;
 
-    background: #7E7E7E;
+    background: rgb(28, 28, 28);
     border-radius: 20px;
-
+    border: 3px solid rgb(74, 74, 74,0.8);
 }
+
 .backgroundprincipal {
     position: absolute;
-    width: 49vw;
-    height: 41vh;
+    width: 97vw;
+    height: 45vh;
     left: 1vw;
-    top: 39vh;
+    top: 32vh;
 
     background: #343434;
     border-radius: 20px;
+    border: 3px solid rgb(74, 74, 74,0.8);
 }
 
 .textobackground {
     position: absolute;
-    width: 45vw;
-    height: 65vh;
-    left: 3vw;
-    top: 41vh;
+    width: 43vw;
+    height: 35vh;
+    left: 3.5vw;
+    top: 37vh;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
-    font-size: 25px;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.textobackground2 {
+    position: absolute;
+    width: 43vw;
+    height: 35vh;
+    left: 53vw;
+    top: 37vh;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 35px;
     text-align: center;
 
     color: #FFFFFF;
@@ -96,24 +116,25 @@ ul li :hover {
 
 .backgroundcertificados {
     position: absolute;
-    width: 21vw;
-    height: 9vh;
-    left: 64.5vw;
-    top: 15vh;
+    width: 32vw;
+    height: 11vh;
+    left: 35vw;
+    top: 86vh;
 
     background: #343434;
     border-radius: 20px;
+    border: 3px solid rgb(74, 74, 74,0.8);
 }
 
 .certificadostitulo {
     position: absolute;
-    width: 20vw;
-    height: 10vh;
-    left: 65vw;
-    top: 155px;
+    width: 800px;
+    height: 10px;
+    left: 30vw;
+    top: 89vh;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+    font-size: 32px;
     line-height: 53px;
     text-align: center;
 
@@ -122,10 +143,10 @@ ul li :hover {
 
 .backgroundgolang {
     position: absolute;
-    width: 559px;
-    height: 387px;
-    left: 12vw;
-    top: 82vh;
+    width: 800px;
+    height: 450px;
+    left: 30vw;
+    top: 140vh;
 
     background: url(cfgo.png);
     border-radius: 50px;
@@ -136,8 +157,8 @@ ul li :hover {
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 60vw;
-    top: 30vh;
+    left: 80vw;
+    top: 105vh;
 
     background: url(cf1.png);
     background-size: cover;
@@ -163,8 +184,8 @@ ul li :hover {
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 79vw;
-    top: 30vh;
+    left: 5vw;
+    top: 105vh;
 
     background: url(cf2.png);
     background-size: cover;
@@ -190,8 +211,8 @@ ul li :hover {
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 60vw;
-    top: 63vh;
+    left: 20vw;
+    top: 105vh;
 
     background: url(cf3.png);
     background-size: cover;
@@ -217,8 +238,8 @@ ul li :hover {
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 79vw;
-    top: 63vh;
+    left: 35vw;
+    top: 105vh;
 
     background: url(CF4.png);
     background-size: cover;
@@ -244,8 +265,8 @@ ul li :hover {
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 60vw;
-    top: 96vh;
+    left: 50vw;
+    top: 105vh;
 
     background: url(CF5.png);
     background-size: cover;
@@ -271,8 +292,8 @@ ul li :hover {
     position: absolute;
     width: 250px;
     height: 250px;
-    left: 79vw;
-    top: 96vh;
+    left: 65vw;
+    top: 105vh;
 
     background: url(CF6.png);
     background-size: cover;
@@ -294,7 +315,7 @@ ul li :hover {
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 480px) {
     #logo {
         width: 40vw;
         height: auto;
@@ -337,9 +358,19 @@ ul li :hover {
 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: normal;
-        font-size: 1s5px;
+        font-size: 15px;
         text-align: center;
 
         color: #FFFFFF;
     }
 }
+
+
+/* .background-instagram:after {
+        position: absolute;
+        content: "";
+        bottom: -40px;
+        height: 40px;
+        width: 1px;
+    }
+    *\

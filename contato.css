@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+body {
+    background-image: url(contato.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#logo {
+    position: absolute;
+    width: 25vh;
+    height: 9vh;
+    left: 12vh;
+    top: 7vh;
+}
+
+header {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+header ul {
+    text-align: center;
+    padding-top: 15px;
+}
+
+header ul li {
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 15px;
+    flex-direction: column-reverse;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(51, 51, 51);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+ul li :hover {
+    color: #000000;
+}
+
+
+.background-wpp {
+    position: absolute;
+    width: 260px;
+    height: 80px;
+    left: 15vh;
+    top: 39vh;
+    background-image: url(wpp.png);
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-image: url(contato.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    #logo {
+        width: 70vw;
+        height: 28vh;
+        left: 10vw;
+        top: 100px;
+    }
+
+    header {
+        border-radius: 15px;
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+    header ul {
+        text-align: center;
+        padding: 0px;
+    }
+
+    header ul li {
+        display: inline-flex;
+        vertical-align: middle;
+        flex-direction: column-reverse;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #333333;
+        box-sizing: border-box;
+        border-radius: 15px;
+    }
+
+    ul li :hover {
+        color: #000000;
+    }
+
+    .background-wpp {
+        position: absolute;
+        width: 258px;
+        height: 80px;
+        left: 9vh;
+        top: 50vh;
+        background-image: url(wpp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 35px;
+        animation: zoom-in-zoom-out 2.5s ease-out infinite;
+    }
+    
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+    
+      50% {
+        transform: scale(1.07, 1.07);
+      }
+    
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    .background-email {
+        position: absolute;
+        width: 258px;
+        height: 80px;
+        left: 9vh;
+        top: 70vh;
+        background-image: url(email.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 35px;
+        animation: zoom-in-zoom-out 2.5s ease-out infinite;
+    }
+    
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+    
+      50% {
+        transform: scale(1.07, 1.07);
+      }
+    
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    .background-tel {
+        position: absolute;
+        width: 258px;
+        height: 80px;
+        left: 9vh;
+        top: 90vh;
+        background-image: url(telefone.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 35px;
+        animation: zoom-in-zoom-out 2.5s ease-out infinite;
+    }
+    
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+    
+      50% {
+        transform: scale(1.07, 1.07);
+      }
+    
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    .background-instagram {
+        position: absolute;
+        width: 258px;
+        height: 80px;
+        left: 9vh;
+        top: 110vh;
+        background-image: url(instagram.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 35px;  
+        animation: zoom-in-zoom-out 2.5s ease-out infinite;
+    }
+    
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+    
+      50% {
+        transform: scale(1.07, 1.07);
+      }
+    
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    .background-linkedin {
+        position: absolute;
+        width: 258px;
+        height: 80px;
+        left: 9vh;
+        top: 130vh;
+        background-image: url(linkedin.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 35px;
+        animation: zoom-in-zoom-out 2.5s ease-out infinite;
+    }
+    
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+    
+      50% {
+        transform: scale(1.07, 1.07);
+      }
+    
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    .background-github {
+        position: absolute;
+        width: 258px;
+        height: 80px;
+        left: 9vh;
+        top: 150vh;
+        background-image: url(git.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 35px;
+        animation: zoom-in-zoom-out 2.5s ease-out infinite;
+    }
+    
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+    
+      50% {
+        transform: scale(1.07, 1.07);
+      }
+    
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    .background-github:after {
+        position: absolute;
+        content: "";
+        bottom: -40px;
+        height: 40px;
+        width: 1px;
+        animation: zoom-in-zoom-out 2.5s ease-out infinite;
+    }
+    
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+    
+      50% {
+        transform: scale(1.07, 1.07);
+      }
+    
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+    
+
+}
